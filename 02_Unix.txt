@@ -1,0 +1,7 @@
+mkdir foo 
+cd foo
+pwd
+mkdir bar
+touch moo
+cd
+mkdir foo | cd foo | pwd | mkdir bar | touch moo | cd
